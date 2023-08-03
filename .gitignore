@@ -1,2 +1,6 @@
 projekt.info
-build/
+build/					ignoruje všetko v adresari build!!
+build/targer/classes/Student.class	ignoruje nejaku specifikaciu
+build/**/*.class			ignoruje subory so špecifickou priponou (.class)
+build/target/**/*.class			zacinam pevnou cestou build/target (hviezdicky znamenaju 					rôzne subory) a ignorujem subory konciace .class
+build/target/**				ignorujem vsetko pod targetom
